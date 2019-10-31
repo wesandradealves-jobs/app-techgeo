@@ -1,0 +1,43 @@
+@import '../../../assets/sass/tools/_mixins' 
+
+.pg-login
+	background: url('../../assets/imgs/architecture-blur-bright-1329061.jpg') center 0 / cover repeat transparent
+	.login-form
+		height: 100%
+		width: 568px
+		position: relative
+		+mq(1024px, max)
+			width: 100%
+		display: flex
+		flex-flow: row wrap 
+		justify-content: center
+		align-items: center
+		background-color: transparentize(black, .3)
+		.container
+			+mq(1024px, max)
+				width: 100%
+			>img 
+				display: block 
+				margin: 0 auto 15px
+			>.field-groups
+				display: flex
+				flex-flow: column
+				width: 414px
+				+mq(1024px, max)
+					width: 100%
+				.md-field
+					&.md-theme-default.md-focused .md-input, 
+					&.md-theme-default.md-focused .md-textarea, 
+					&.md-theme-default.md-highlight .md-input, 
+					&.md-theme-default.md-highlight .md-textarea,
+					&.md-focused label
+						color: orangered
+					&.md-theme-default:before
+						background-color: orangered
+				.md-button
+					margin-left: 0
+					margin-right: 0
+					&.md-theme-default.md-raised:not([disabled]).md-primary
+						background-color: orangered
+				>* 
+					width: 100%

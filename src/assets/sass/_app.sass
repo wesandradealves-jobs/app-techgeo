@@ -1,0 +1,81 @@
+@import './tools/_mixins'  
+
+body,html
+	background-color: whitesmoke
+	min-height: 100vh
+	width: 100%
+	scroll-behavior: smooth
+	overflow: hidden
+	-webkit-font-smoothing: antialiased
+	font-family: 'Roboto', sans-serif
+	+mq(736px, max)
+		overflow: initial
+	*
+		-webkit-font-smoothing: inherit
+	.fade-enter-active,
+	.fade-leave-active 
+		transition-duration: 0.3s
+		transition-property: opacity
+		transition-timing-function: ease
+	.fade-enter,
+	.fade-leave-active 
+		opacity: 0
+	#nprogress
+		z-index: 99999
+		.bar
+			background: white
+		.spinner
+			top: 0
+			right: 0
+			width: 100%
+			height: 100%
+			display: flex
+			flex-flow: column
+			justify-content: center
+			align-items: center
+			background-color: transparentize(black, .1)
+			&-icon
+				border-top-color: orangered
+				border-left-color: orangered	
+				height: 40px
+				width: 40px							
+	&.nprogress-busy
+		#wrap 
+			pointer-events: none 
+			* 
+				pointer-events: inherit		
+	#wrap 
+		transition: 1000ms linear all
+		display: flex
+		flex-flow: column
+		justify-content: flex-start
+		height: 100%
+		&:not(.pg-login)
+			+mq(736px, max)
+				height: auto
+				position: relative
+				overflow: initial
+		width: inherit
+		overflow: inherit
+		position: absolute
+		top: 0
+		left: 0
+		z-index: 1
+		.__bar-is-vertical
+			border-radius: 0!important
+		.__rail-is-vertical
+			z-index: 9999!important
+			background-color: black!important
+			right: 0!important
+			border-radius: 0!important
+		.main 
+			overflow: inherit
+			flex: 1				
+		.container
+			margin: 0 auto
+			padding-left: 45px
+			padding-right: 45px
+			max-width: 100%
+			+mq(667px, max)
+				padding-left: 15px
+				padding-right: 15px

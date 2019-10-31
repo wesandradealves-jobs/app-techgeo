@@ -1,0 +1,21 @@
+@import '../../../../assets/sass/tools/_mixins' 
+
+.navigation
+	width: 100%
+	flex: 1
+	background-color: orangered
+	+mq(737px, max)
+		display: none
+	>ul 
+		>li 
+			display: block
+			>a 
+				padding: 10px 30px
+				background-color: orangered
+				color: white!important
+				display: block
+				&.current
+					background-color: black
+			&:not(:last-child)
+				>a
+					border-bottom: 1px transparentize(black, .9) solid 

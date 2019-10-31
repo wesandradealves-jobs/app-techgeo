@@ -1,0 +1,7 @@
+[20-Sep-2019 15:35:06 America/Sao_Paulo] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Sep-2019 15:35:06 America/Sao_Paulo] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[20-Sep-2019 15:35:06 America/Sao_Paulo] PHP Fatal error:  Call to undefined function get_header() in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/index.php on line 1
+[20-Sep-2019 15:35:13 America/Sao_Paulo] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Sep-2019 15:35:13 America/Sao_Paulo] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[20-Sep-2019 15:35:16 America/Sao_Paulo] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Sep-2019 15:35:16 America/Sao_Paulo] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0

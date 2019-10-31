@@ -1,0 +1,18 @@
+.breadcrumbs
+	& + *
+		padding-bottom: 75px	
+	>ul
+		>li 
+			display: inline-block
+			vertical-align: middle
+			color: #474747!important
+			&:last-child
+				font-weight: bold
+			&:not(:last-child):not(:only-child)
+				&::after 
+					content: '/'
+					color: orangered
+					display: inline-block
+					vertical-align: baseline
+			>a 
+				color: inherit!important

@@ -1,0 +1,26 @@
+@import '../../../assets/sass/tools/_mixins' 
+
+.sidebar
+	width: 320px
+	+mq(736px, max)
+		width: 100%
+	flex: 0 0 auto
+	background: url(https://site.techgeo.com.br/wp-content/uploads/2013/03/fundo.jpg) center 0 repeat transparent
+	.container
+		padding: 45px 0 0 !important
+		height: 100%
+		display: flex
+		flex-flow: column wrap 
+		justify-content: flex-start
+		align-items: flex-start
+	.logo
+		margin: 0 auto 45px
+		display: block
+		flex: 0 0 auto
+		width: 100%
+		display: flex 
+		flex-flow: row
+		justify-content: center 
+		align-items: center
+	+mq(568px, max)
+		width: 100%

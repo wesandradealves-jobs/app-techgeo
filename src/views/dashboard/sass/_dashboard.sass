@@ -1,0 +1,48 @@
+@import '../../../assets/sass/tools/_mixins' 
+
+.dashboard
+	height: 100%
+	width: 100%
+	overflow: hidden
+	display: flex
+	flex-flow: column
+	justify-content: space-between
+	+mq(736px, max)
+		overflow: initial
+		height: auto
+	.content 
+		flex: 1
+		width: 100%
+		display: flex 
+		flex-flow: row 
+		justify-content: inherit
+		align-items: stretch
+		+mq(736px, max)
+			flex-flow: column
+		&-inner 
+			flex: inherit
+			max-height: 100vh
+			+mq(736px, max)
+				max-height: initial
+			label
+				text-transform: uppercase
+			.md-button
+				margin-left: 0
+				margin-right: 0
+				&.md-theme-default.md-raised:not([disabled]).md-primary
+					background-color: orangered				
+			.md-field
+				&.md-theme-default .md-helper-text, 
+				&.md-theme-default .md-count, 
+				&.md-theme-default label,
+				&.md-theme-default.md-focused .md-input, 
+				&.md-theme-default.md-focused .md-textarea, 
+				&.md-theme-default.md-has-value .md-input, 
+				&.md-theme-default.md-has-value .md-textarea
+					-webkit-text-fill-color: gray
+					color: gray
+				&.md-theme-default:after,
+				&.md-theme-default:before
+					background-color: gray
+			.container
+				padding-top: 45px

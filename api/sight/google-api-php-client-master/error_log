@@ -1,0 +1,14 @@
+[20-Sep-2019 15:38:12 America/Sao_Paulo] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Sep-2019 15:38:12 America/Sao_Paulo] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[20-Sep-2019 15:38:12 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 1
+[20-Sep-2019 15:38:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 33
+[20-Sep-2019 15:39:39 America/Sao_Paulo] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Sep-2019 15:39:39 America/Sao_Paulo] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[20-Sep-2019 15:39:39 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 1
+[20-Sep-2019 15:39:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 33
+[23-Sep-2019 12:56:20 America/Sao_Paulo] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[23-Sep-2019 12:56:20 America/Sao_Paulo] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[23-Sep-2019 12:56:21 America/Sao_Paulo] PHP Warning:  Unsupported declare 'strict_types' in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 1
+[23-Sep-2019 12:56:21 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 33
+[23-Sep-2019 12:56:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 33
+[23-Sep-2019 12:57:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'const' (T_CONST), expecting variable (T_VARIABLE) in /home/techg827/staging.techgeo.com.br/wp-content/themes/sight/google-api-php-client-master/vendor/monolog/monolog/src/Monolog/Logger.php on line 33
